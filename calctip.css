@@ -1,0 +1,34 @@
+.frame{
+    width: 300px;
+    margin: auto;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+    height: 400px;
+}
+.title{
+    text-align: center;
+    background-color: rgb(32, 12, 51);
+    position: static;
+    color: white;
+    border-radius: 10px;
+}
+.tipInfo{
+    position:absolute;
+    margin-top: 10px;
+    left: 10px;
+}
+.submit{
+    position: absolute;
+    top: 300px;
+    width: 50px;
+    left: 100px;
+}
+button{
+    background-color: rgb(87, 8, 8);
+    margin: auto;
+}
+button:hover{
+    background-color: red;
+}
